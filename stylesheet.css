@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
+html, body {
+  font-family: 'Pompiere', cursive;
+
+}
+h1{
+text-align:center;
+
+
+}
+p{
+text-align:center;
+
+}
+.navigation{
+  text-align:center;
+
+}
+.navigation a {
+  text-decoration: none;
+  margin: 0 20px;
+
+}
+.navigation a:link,
+.navigation a:visited{
+  color:black;
+}
+.navigation a:hover{
+  color:orange;
+}
+.about{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: auto;
+  font-size: 25px;
+}
+.images {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+
+
+}
+.rows img{
+  /* width: auto;
+  height:auto; */
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 15px;
+  object-fit: contain;
+
+}
+.portrait {
+     border: 5px solid orange;
+     margin-top: 15px;
+}
+.bio {
+  font-size: 25px;
+  font-family: 'Pompiere', cursive;
+
+}
+.fontsize1{
+   font-size: 40px;
+   color: orange;
+}
+.name{
+color:#BDD8BB;
+}
+.aboutme{
+  font-size: 40px;
+  color: #BDD8BB;
+  font-family: 'Pompiere', cursive;
+}
+.rows{
+  justify-content: space-evenly;
+  display:flex;
+
+}
+.square{
+  width: 400px;
+  display: flex;
+  padding: 50px;
+}
+
+#top, #bottom, #left, #right {
+	background:#BDD8BB ;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 15px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 10px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
